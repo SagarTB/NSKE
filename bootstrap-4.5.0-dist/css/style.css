@@ -1,0 +1,220 @@
+.header1{
+  padding-top:10px;
+}
+
+.header1 h2{
+  color:#0275d8;
+}
+
+.nav1{
+  font-size: 18px;
+  padding-right: 125px;
+}
+
+.navbar{
+  margin-bottom: 0;
+}
+
+.navbar-title{
+  text-align: center;
+}
+
+#about-main-content{
+  color: #000;
+  margin: 20px auto;
+  border: 12px solid #808080;
+  max-width: 1000px;
+  width: 80%;
+  padding: 20px;
+  background-color: #DCDCDC;
+}
+
+#home-about{
+  padding-top: 30px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.home-about-cont{
+  font-size: 15px;
+}
+
+#quote{
+  border-left: 5px solid #808080;
+  font-size: 15px;
+}
+
+#clients h3{
+  margin-top: 30px;
+  margin-left: 100px;
+  text-transform: uppercase;
+  color: #0275d8;
+}
+
+.client-logo{
+  margin-left: 100px;
+  padding-top: 30px;
+}
+
+/*footer*/
+.panel-footer{
+  margin-top: 30px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  background-color: #DCDCDC;
+  border-top: 0;
+}
+
+.panel-footer div.row{
+  margin-bottom: 0;
+}
+
+#copy-right{
+  padding-top: 20px;
+  text-align: center;
+  color: #000;
+  font-size: 12px;
+}
+
+#footer-heading{
+  color: #000;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#contact-info{
+  text-align: center;
+  padding-top: 20px;
+  font-size: 18px;
+  color: #000;
+}
+
+.glyphicon{
+  padding-left: 20px;
+  color: #000;
+}
+
+.my-info{
+  font-size: 12px;
+  padding-left: 120px;
+  color: #000;
+}
+
+#links{
+  color: #000;
+  padding-right: 10px;
+}
+/* END OF FOOTER */
+
+
+/*********************************CONTACT US********************************************/
+.contact p{
+  font-size: 20px;
+}
+
+.contact{
+  padding-top: 20px;
+}
+
+.contact h3{
+  font-size: 30px;
+}
+
+.contact a{
+  font-size: 20px;
+  border: 2px solid red;
+  border-radius: 25px;
+}
+
+/*********************************ABOUT US********************************************/
+.about-content{
+  margin-bottom: 80px;
+}
+
+.about-img-top{
+  margin-bottom: 80px;
+}
+
+.about-content h4{
+  text-transform: uppercase;
+  font-size: 22px;
+  color: #0275d8;
+}
+
+#abcont1{
+  font-size: 42px;
+}
+
+#abcont2{
+  font-size: 15px;
+}
+
+#abimg1{
+  border-radius: 25px;
+}
+
+.about-content-down{
+  padding-top: 30px;
+  background-color: #0275d8;
+}
+
+.about-content-down h2{
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.about-content-down p{
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 15px;
+  border: 2px solid #021fe6;
+  background-color: #273fe6;
+  border-radius: 15px;
+  font-weight: bold;
+  color: #fff;
+}
+
+/*********************************MEDIA QURIES********************************************/
+
+/*****LARGE DEVICES*****/
+@media (min-width: 1200px) {
+  .carousel-item {
+    height: 550px;
+  }
+}
+
+/*****MEDIUM DEVICES*****/
+@media (min-width: 992px) and (max-width: 1199px) {
+    .carousel-item {
+      height: 550px;
+    }
+}
+
+/*****SMALL DEVICES*****/
+@media (min-width: 770px) and (max-width: 991px) {
+  .carousel-item {
+    height: 300px;
+  }
+  .about-content{
+    margin-bottom: 30px;
+  }
+  .about-content-down{
+    margin-top: 10px;
+  }
+}
+
+/*****XS DEVICES*****/
+@media (max-width: 767px) {
+  .carousel-item {
+    height: 200px;
+  }
+  .about-content{
+    margin-bottom: 30px;
+  }
+  .about-content-down{
+    margin-top: 10px;
+  }
+}
