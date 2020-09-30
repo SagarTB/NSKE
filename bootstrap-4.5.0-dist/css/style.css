@@ -207,42 +207,15 @@
 .products-img{
   margin-top: 40px;
   height: 300px;
-  width: 300px;
+  width: 100%;
   padding: 20px 80px 20px 80px;
   background-color: #D3D3D3;
 }
 
-.products{
-    margin-top: 40px;
-    padding-top: 60px;
-    padding-right: 50px;
-    text-align: center;
-    font-weight: bold;
-    color: #0275d8;
-    background-color: #D3D3D3;
-    margin-bottom: 0;
-}
 
-.products1-img{
-  height: 300px;
-  width: 300px;
-  margin-top: 40px;
-  padding: 20px 80px 20px 80px;
-  background-color: #0275d8;
-}
+/*****Products paragraph styling in media query .products and .products1, products1-img also****/
 
-.products1{
-    margin-top: 40px;
-    margin-bottom: 0;
-    padding-top: 60px;
-    padding-left: 50px;
-    text-align: center;
-    background-color: #0275d8;
-    color: #fff;
-    font-weight: bold;
-}
-
-/*********************************images********************************************/
+/*********************************IMAGES********************************************/
 .img-heading{
   color: #0275d8;
   text-transform: uppercase;
@@ -288,12 +261,66 @@
   .carousel-item {
     height: 550px;
   }
+  .products{
+      margin-top: 40px;
+      padding-top: 60px;
+      padding-right: 50px;
+      text-align: center;
+      font-weight: bold;
+      color: #0275d8;
+      background-color: #D3D3D3;
+      margin-bottom: 0;
+  }
+  .products1{
+      margin-top: 40px;
+      margin-bottom: 0;
+      padding-top: 60px;
+      padding-left: 50px;
+      text-align: center;
+      background-color: #0275d8;
+      color: #fff;
+      font-weight: bold;
+  }
+  .products1-img{
+    height: 300px;
+    width: 100%;
+    margin-top: 40px;
+    padding: 20px 80px 20px 80px;
+    background-color: #0275d8;
+  }
 }
 
 /*****MEDIUM DEVICES*****/
 @media (min-width: 992px) and (max-width: 1199px) {
     .carousel-item {
       height: 550px;
+    }
+    .products{
+        margin-top: 40px;
+        padding-top: 60px;
+        padding-right: 50px;
+        text-align: center;
+        font-weight: bold;
+        color: #0275d8;
+        background-color: #D3D3D3;
+        margin-bottom: 0;
+    }
+    .products1{
+        margin-top: 40px;
+        margin-bottom: 0;
+        padding-top: 60px;
+        padding-left: 50px;
+        text-align: center;
+        background-color: #0275d8;
+        color: #fff;
+        font-weight: bold;
+    }
+    .products1-img{
+      height: 300px;
+      width: 100%;
+      margin-top: 40px;
+      padding: 20px 80px 20px 80px;
+      background-color: #0275d8;
     }
 }
 
@@ -308,6 +335,34 @@
   .about-content-down{
     margin-top: 10px;
   }
+  .products{
+      padding-top: 10px;
+      padding-right: 20px;
+      padding-left: 20px;
+      text-align: center;
+      font-weight: bold;
+      color: #0275d8;
+      background-color: #D3D3D3;
+      margin-bottom: 0;
+  }
+  .products1{
+      margin-top: 40px;
+      margin-bottom: 0;
+      padding-top: 10px;
+      padding-left: 20px;
+      padding-right: 20px;
+      text-align: center;
+      background-color: #0275d8;
+      color: #fff;
+      font-weight: bold;
+  }
+  .products1-img{
+    height: 300px;
+    width: 100%;
+    margin-top: 0;
+    padding: 20px 80px 20px 80px;
+    background-color: #0275d8;
+  }
 }
 
 /*****XS DEVICES*****/
@@ -320,5 +375,33 @@
   }
   .about-content-down{
     margin-top: 10px;
+  }
+  .products{
+      padding-top: 10px;
+      padding-right: 20px;
+      padding-left: 20px;
+      text-align: center;
+      font-weight: bold;
+      color: #0275d8;
+      background-color: #D3D3D3;
+      margin-bottom: 0;
+  }
+  .products1{
+      margin-top: 40px;
+      margin-bottom: 0;
+      padding-top: 10px;
+      padding-left: 20px;
+      padding-right: 20px;
+      text-align: center;
+      background-color: #0275d8;
+      color: #fff;
+      font-weight: bold;
+  }
+  .products1-img{
+    height: 300px;
+    width: 100%;
+    margin-top: 0;
+    padding: 20px 80px 20px 80px;
+    background-color: #0275d8;
   }
 }
