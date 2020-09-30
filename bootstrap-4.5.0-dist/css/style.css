@@ -111,11 +111,12 @@
 
 /*********************************CONTACT US********************************************/
 .contact p{
-  font-size: 20px;
+  font-size: 15px;
+
 }
 
 .contact{
-  padding-top: 20px;
+  padding-top: 30px;
 }
 
 .contact h3{
@@ -123,9 +124,26 @@
 }
 
 .contact a{
-  font-size: 20px;
+  font-size: 15px;
   border: 2px solid red;
   border-radius: 25px;
+  padding-left: 0;
+}
+
+.contact-spacing{
+  padding-top: 15px;
+  margin-bottom: 30px;
+  border: 2px solid #000;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.contact-spacing h3{
+  padding-bottom: 15px;
+}
+
+.map-spacing{
+  padding-top: 20px;
 }
 
 /*********************************ABOUT US********************************************/
